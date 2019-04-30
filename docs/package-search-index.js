@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.garrettAndPeter"},{"l":"com.garrettAndPeter.lib"},{"l":"com.garrettAndPeter.stringEvolution"}]
