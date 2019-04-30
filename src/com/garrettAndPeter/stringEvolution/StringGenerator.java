@@ -3,9 +3,10 @@ package com.garrettAndPeter.stringEvolution;
 import com.garrettAndPeter.lib.Generator;
 import com.garrettAndPeter.lib.Organism;
 
-
+/**
+ * Generates a random string organism
+ */
 public class StringGenerator implements Generator<Organism<String>> {
-    //public static Random r = new Random();
 
     private int length;
     public StringGenerator(int length){
@@ -20,10 +21,6 @@ public class StringGenerator implements Generator<Organism<String>> {
             s.append(generateChar());
         }
         return new StringOrganism(s.toString());
-    }
-
-    public void setLength(int length){
-        this.length = length;
     }
 
     public static char generateChar(){

@@ -2,6 +2,10 @@ package com.garrettAndPeter.lib;
 
 import java.util.ArrayList;
 
+/**
+ * A parent pool generator that creates a parent pool
+ * directly based of the fitnesses of the organisms
+ */
 public class ProportionalGenerator implements ParentPoolGenerator {
     @Override
     public ArrayList<Organism> getParentPool(ArrayList<Organism<?>> generation) {

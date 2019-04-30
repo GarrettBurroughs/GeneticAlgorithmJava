@@ -1,7 +1,8 @@
 package com.garrettAndPeter.lib;
 
 /**
- * A function
+ * A function that allows for the creation of offspring using 2
+ * parent organisms
  *
  * @param <T> the organism type
  */

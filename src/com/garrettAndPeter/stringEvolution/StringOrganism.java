@@ -3,10 +3,17 @@ package com.garrettAndPeter.stringEvolution;
 import com.garrettAndPeter.lib.Generator;
 import com.garrettAndPeter.lib.Organism;
 
+/**
+ * An organism based off of a string
+ *
+ * The string organism is implemented to show how words can evolve based on a certain target word.
+ *
+ * A strings fitness is increased for every character that it has in common with the
+ * target string.
+ */
 public class StringOrganism extends Organism<String> {
 
     private static StringReproduce reproduction = new StringReproduce();
-    private static StringGenerator generator = new StringGenerator(10);
 
     public StringOrganism(String d) {
         super(d);
@@ -18,10 +25,6 @@ public class StringOrganism extends Organism<String> {
 
     public StringOrganism(Organism<String> a, Organism<String> b) {
         super(a, b, reproduction);
-    }
-
-    public static void setLength(int length){
-       generator.setLength(length);
     }
 
     @Override
