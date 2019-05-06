@@ -1,7 +1,7 @@
 # GeneticAlgorithmJava
 A Genetic algorithm library and implementation written in pure java
 
-get the full docs [Here](garrettburroughs.github.io/GeneticAlgorithmJava/javadoc)
+get the full docs [Here](javadoc)
 
 This library allows for general creation of a genetic algorithm, In use, the
 user needs to define a Generator, Organism and Reproduction class.
