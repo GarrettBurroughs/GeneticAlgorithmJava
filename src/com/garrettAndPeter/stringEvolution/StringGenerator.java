@@ -12,6 +12,7 @@ public class StringGenerator implements Generator<Organism<String>> {
     public StringGenerator(int length){
         this.length = length;
     }
+    String s;
 
     @Override
     public Organism<String> createRandom() {
