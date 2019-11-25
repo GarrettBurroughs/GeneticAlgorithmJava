@@ -43,3 +43,5 @@ Garrett Burroughs and Peter Adams
 
 ## Resources
 Wikipedia article on Genetic Algorithms: [https://en.wikipedia.org/wiki/Genetic_algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm)
+
+[Article on genetic algorithms](https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3?gi=6cfc0b6a5b46)
